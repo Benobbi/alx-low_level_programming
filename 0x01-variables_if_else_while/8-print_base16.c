@@ -10,14 +10,15 @@
 int main(void)
 {
 	int a;
+	int b;
 
-	for (a = 48; a < 58; a++)
+	for (a = 48; a < 57; a++)
 	{
 		putchar(a);
 	}
-	for (a = 48; a < 103; a++)
+	for (b = 97; a < 102; a++)
 	{
-		putchar(a);
+		putchar(b);
 	}
 	putchar('\n');
 	return (0);
