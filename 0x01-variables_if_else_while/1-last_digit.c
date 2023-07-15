@@ -25,7 +25,7 @@ int main(void)
 	}
 	else if (b == 0)
 	{
-	printf(" %d and is 0\n", b);
+	printf("%d and is 0\n", b);
 	}
 	else
 	{
