@@ -2,9 +2,7 @@
 #include <time.h>
 #include <stdio.h>
 
-/** program runs random numbers and evaluates whether the number
- * is less than zero, equal to zero, or greater than zero
- *
+/**
  * main - the starting point
  * Description: prints an output using the printf function
  *
@@ -14,6 +12,7 @@
 int main(void)
 {
 	int n;
+	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 
