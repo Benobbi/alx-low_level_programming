@@ -7,10 +7,11 @@
  * Return: always 0
  */
 
-int main (void)
+int main(void)
 {
 	char b;
 	b = 'a';
+
 	while (b <= 'z')
 	{
 		putchar (b);
