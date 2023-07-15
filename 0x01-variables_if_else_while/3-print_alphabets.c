@@ -6,7 +6,7 @@
  *
  * Return: always 0
  */
-int main (void)
+int main(void)
 {
 	char b;
 	char c;
@@ -20,7 +20,7 @@ int main (void)
 			putchar(b);
 			b++;
 		}
-	while 
+	while
 		(c <= 'Z')
 		{
 			putchar (c);
