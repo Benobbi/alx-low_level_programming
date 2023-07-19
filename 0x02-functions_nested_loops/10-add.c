@@ -6,14 +6,11 @@
  *
  * @b: second number
  *
- *  Return: the sum of the two numbers
+ * Return: the sum of the two numbers
  */
-int add(a, b)
+int add(int a, int b)
+
 {
-	int c;
-
-	c = a + b;
-
-	return (c);
+	return (a + b);
 }
 
