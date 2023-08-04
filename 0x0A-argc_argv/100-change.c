@@ -1,4 +1,5 @@
-#include "main.h"
+#include <stdio.h>
+#include <stdlib.h>
 
 /**
  * main - the minimum number of coins
@@ -26,12 +27,12 @@ int main(int argc, char *argv[])
 		printf("0\n");
 		return (0);
 	}
-	for (d = 0; d < 5 && num >= 0; d++)
+	for (d = 0; d < 5 && a >= 0; d++)
 	{
 		while (a >= c[d])
 		{
 			b++;
-			a == c[j];
+			a -= c[d];
 		}
 	}
 	printf("%d\n", b);
