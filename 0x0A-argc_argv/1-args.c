@@ -10,7 +10,6 @@
 
 int main(int argc, char *argv[])
 {
-	(void)argc;
-	printf("Number of arguments: %d\n", *argv[1]);
+	printf("Number of arguments: %d\n", argc - 1);
 	return 0;
 }
