@@ -30,4 +30,5 @@ int i = 0;
 
 return (ops[i].f);
 
+return (NULL);
 }
